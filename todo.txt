@@ -1,0 +1,19 @@
+manager :
+- [fait] verifier que les messages recus sont de la bonne forme (bonne taille, les \r\n a la fin, ip completee par des 0, id complete par des #, etc...)
+-> pour tester -> enleve les \r\n dans communication.c ligne 17
+
+diffuser :
+- [ok][fait] verifier que les messages recus sont de la bonne forme (bonne taille, les \r\n a la fin, ip completee par des 0, id complete par des #, etc...)
+- [ok] gerer si l'adresse est deja use (tcp task)
+-> faut exit
+- [wow c bon ct chaud] non bloquant pour le regi (attendre x temps)
+-> si l'ip est valide et le port non -> 2 warning (pas besoin d'attendre le 2eme si le premier a ete trigger)
+-> ca fonctionne pas si l'ip est invalide
+- rien en debug
+
+manager & diffuser :
+- [diff ok] implementer une commande pour quitter
+-> ca fait un joli print mais ca quitte pas
+- [diff ok+++] readme [<--- lol]
+- [Fait] ajouter couleur sur debug
+-> ya une etoile bizare avant
