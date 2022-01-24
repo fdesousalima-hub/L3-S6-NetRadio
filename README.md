@@ -28,16 +28,6 @@ Au niveau des fichiers sources, ils sont séparés en deux dossiers :
 
 Pour la compilation, nous avons fait le choix d'un unique Makefile : plus pratique et plus rapide.
 
-Dans le cas où ce rapport ne répondrait pas à une de vos questions, n'hésitez pas à contacter l'un d'entre nous (voir coordonnées ci-dessous).
-
-## Identifiants
-
-| Prénom | NOM | Numéro étudiant | Groupe | Pseudo Git | Mail | Tag Discord |
-| --- | --- | --- | --- | --- | --- | --- |
-| Gabriel | DA SILVA | 71807907 | Groupe 1 | @dasilvag | gabdslv@gmail.com | GAB#4370 |
-| Hugo | DEPREZ | 71802209 | Groupe 1 | @deprez | h.deprez@free.fr | H u g o#7458 |
-| Fabio | DE SOUSA LIMA | 71802806 | Groupe 2 | @desousal | fabio.jorge2000@hotmail.fr | Asuos#2448 |
-
 ## Compilation & Exécution
 
 ### Compilation
